@@ -7,6 +7,20 @@
 <meta name="description" content="Design Definition is a small studio in London that designs and builds apps.">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://www.designdefinition.info/">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Design Definition">
+<meta property="og:description" content="A small studio in London that designs and builds apps.">
+<meta property="og:url" content="https://www.designdefinition.info/">
+<meta property="og:image" content="https://www.designdefinition.info/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root {
     --bg: #f7f5f0;
@@ -50,6 +64,10 @@
     letter-spacing: 0.14em;
     text-transform: uppercase;
   }
+  .brand { display: flex; align-items: center; gap: 0.75rem; }
+  .dd { height: 2rem; width: auto; display: block; }
+  .dd-a { fill: var(--ink); }
+  .dd-b { fill: var(--accent); stroke: var(--bg); stroke-width: 44; paint-order: stroke; stroke-linejoin: round; }
   main { padding: 18vh 0 6rem; }
   h1 {
     font-weight: 400;
@@ -107,7 +125,10 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="mark">Design Definition</div>
+      <div class="brand">
+        <svg class="dd" xmlns="http://www.w3.org/2000/svg" viewBox="38 -1500 2352 1500" role="img" aria-label="Design Definition"><g transform="scale(1,-1)"><path class="dd-a" d="M597 1500Q820 1500 981.5 1401.5Q1143 1303 1230.5 1133.0Q1318 963 1318 750Q1318 590 1265.5 453.5Q1213 317 1117.0 215.0Q1021 113 889.0 56.5Q757 0 597 0H38V5H217V1495H38V1500ZM408 5H597Q735 5 829.0 69.5Q923 134 980.0 241.0Q1037 348 1062.0 481.0Q1087 614 1087 750Q1087 887 1059.0 1019.5Q1031 1152 972.5 1259.0Q914 1366 821.0 1430.5Q728 1495 597 1495H408Z"/><path class="dd-b" transform="translate(1000,0)" d="M-70 0V5H500Q607 5 698.0 53.5Q789 102 863.5 186.5Q938 271 995.5 378.5Q1053 486 1091.5 605.5Q1130 725 1150.0 844.5Q1170 964 1170 1070Q1170 1139 1153.0 1213.5Q1136 1288 1098.0 1351.5Q1060 1415 996.5 1455.0Q933 1495 840 1495H250V1500H840Q1003 1500 1127.0 1440.5Q1251 1381 1320.5 1267.0Q1390 1153 1390 990Q1390 785 1320.0 605.5Q1250 426 1127.0 290.0Q1004 154 843.0 77.0Q682 0 500 0ZM110 0 450 1500H640L300 0Z"/></g></svg>
+        <div class="mark" aria-hidden="true">Design Definition</div>
+      </div>
     </header>
 
     <main>
