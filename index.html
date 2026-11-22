@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design Definition</title>
+<meta name="description" content="Design Definition is a small studio in London that designs and builds apps.">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://www.designdefinition.info/">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --ink: #161513;
+    --muted: #6b6760;
+    --rule: #dcd8cf;
+    --accent: #2f5d50;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121211;
+      --ink: #ecebe6;
+      --muted: #9a968d;
+      --rule: #2c2b28;
+      --accent: #8cc2b0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  header {
+    padding: 2rem 0 0;
+  }
+  .mark {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  main { padding: 18vh 0 6rem; }
+  h1 {
+    font-weight: 400;
+    font-size: clamp(2.25rem, 7vw, 3.75rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin: 0 0 2rem;
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .lede {
+    font-size: 1.25rem;
+    color: var(--ink);
+    max-width: 34rem;
+    margin: 0 0 3.5rem;
+  }
+  h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 1rem;
+  }
+  ul.list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 3.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  ul.list li {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  a {
+    color: var(--ink);
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+  }
+  a:hover { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  footer {
+    border-top: 1px solid var(--rule);
+    padding: 2rem 0 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1.7;
+    color: var(--muted);
+  }
+  footer p { margin: 0; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark">Design Definition</div>
+    </header>
+
+    <main>
+      <h1>A small studio in London that <em>designs and builds apps.</em></h1>
+      <p class="lede">We make useful, carefully made software for the desktop, the web and the phone, from first sketch to shipped product.</p>
+
+      <h2>What we do</h2>
+      <ul class="list">
+        <li>Product and interface design</li>
+        <li>Desktop, web and mobile apps</li>
+        <li>Prototypes that turn into products</li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>Design Definition Limited</p>
+      <p>Company number: 15183622, registered in England and Wales</p>
+      <p>27 Old Gloucester Street, London WC1N 3AX</p>
+    </footer>
+  </div>
+</body>
+</html>
